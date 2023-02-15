@@ -20,7 +20,7 @@ public class decompressor {
         FileInputStream fis= new FileInputStream(file);
         GZIPInputStream gzip=new GZIPInputStream(fis);
         //FileOutputStream fos=new FileOutputStream(filedirectory+"/Decompressed.gz");
-        FileOutputStream fos=new FileOutputStream(filedirectory+"/Decompressed2.pdf");
+        FileOutputStream fos=new FileOutputStream(filedirectory+"/Decompressed.pdf");
         
         byte[] buffer=new byte[1024];
         
